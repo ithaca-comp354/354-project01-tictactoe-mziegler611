@@ -24,5 +24,7 @@ public interface TicTacToeBoard {
     
     //@returns a copy of the current board
     public TicTacToeBoard copyBoard();
+
+    public char[][] getSquares();
     
 }
