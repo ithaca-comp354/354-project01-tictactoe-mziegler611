@@ -4,6 +4,7 @@ import edu.ithaca.dragon.games.tictactoe.player.BrainDeadPlayer;
 import edu.ithaca.dragon.games.tictactoe.player.HumanPlayer;
 import edu.ithaca.dragon.games.tictactoe.player.RandomMovePlayer;
 import edu.ithaca.dragon.games.tictactoe.player.RandomSmarterPlayer;
+import edu.ithaca.dragon.games.tictactoe.player.RuleBasedAgent;
 import edu.ithaca.dragon.games.tictactoe.player.SmartPlayer;
 
 public class TicTacToeMain {

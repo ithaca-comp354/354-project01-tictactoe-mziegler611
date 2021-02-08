@@ -138,8 +138,10 @@ public class TwoDArrayBoard implements TicTacToeBoard{
         return false;
     }
 
-    public char[][] getSquares(){
-        return squares;
+    
+
+    public char checkSquare(Pair<Integer, Integer> square){
+        return squares[square.getValue0()][square.getValue1()];
     }
 
 }
