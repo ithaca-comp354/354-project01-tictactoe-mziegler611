@@ -111,11 +111,11 @@ public class SmartPlayer implements TicTacToePlayer{
     if (curBoard.isSquareOpen(new Pair<>(0,0))){
         return new Pair<>(0,0);
     }
-    if (curBoard.isSquareOpen(new Pair<>(2,0))){
-        return new Pair<>(2,0);
-    }
     if (curBoard.isSquareOpen(new Pair<>(0,2))){
         return new Pair<>(0,2);
+    }
+    if (curBoard.isSquareOpen(new Pair<>(2,0))){
+        return new Pair<>(2,0);
     }
     if (curBoard.isSquareOpen(new Pair<>(2,2))){
         return new Pair<>(2,2);
